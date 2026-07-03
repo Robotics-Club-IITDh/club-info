@@ -7,7 +7,7 @@ quantity: <% tp.system.prompt("Quantity") %>
 unit: pcs
 location: "<% tp.system.prompt("Storage location") %>"
 status: available
-min-stock: <% tp.system.prompt("Reorder threshold") %>
+min-stock: <% tp.system.prompt("Minimum Stock") %>
 unit-cost: 
 supplier: 
 datasheet: 
